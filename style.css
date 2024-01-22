@@ -1,12 +1,8 @@
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: sans-serif;
-    line-height: 1.6;
-    background: radial-gradient(ellipse at top center, #310038 0%, #000 100%);
-    background-size: cover;
-    min-height: 100vh;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
 }
 img {
  
