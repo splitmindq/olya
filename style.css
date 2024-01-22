@@ -1,0 +1,68 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.6;
+    background: radial-gradient(ellipse at top center, #310038 0%, #000 100%);
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+img {
+ 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.h3-style,
+.h3-second-style {
+    position: absolute;
+    bottom: 10%;
+    color: palevioletred;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h3-style-2{
+    position: absolute;
+    bottom: 30%;
+    color: palevioletred;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h3-second-style {
+    left: 50%; /* Изменил left на 50% для центрирования второго заголовка */
+    transform: translateX(-50%); /* Центрирование по горизонтали */
+}
+
+.content {
+    width: 10%; /* Изменил ширину видео на 100% */
+    position: absolute;
+    bottom: 0;
+}
+
+@media (min-width: 768px) {
+    /* Пример media query для разрешения шире 768px */
+    .h3-style,
+    .h3-second-style {
+        bottom: 20%;
+    }
+}
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff69b4; /* Розовый цвет, можно изменить на ваш вкус */
+    color: #fff; /* Белый цвет текста */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #d34e91; /* Измененный цвет при наведении */
+}
